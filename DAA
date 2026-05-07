@@ -1,0 +1,16 @@
+SLIP 1
+Selection Sort with Timing & Quick Sort with Timing
+Sorting
+Q.1
+Q.1 – Selection Sort with Timing
+
+⧉
+Copy
+#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+
+void selectionSort(int arr[], int n) {
+    int i, j, minIdx, temp;
+    for (i = 0; i < n-1; i++) {
+        minIdx = i;
